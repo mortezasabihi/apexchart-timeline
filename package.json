@@ -1,0 +1,32 @@
+{
+  "name": "apexchart-timeline",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Morteza Sabihi",
+    "email": "mortezasabihi87@gmail.com",
+    "url": "https://mortezasabihi.com"
+  },
+  "repository": {
+    "url": "https://github.com/mortezasabihi/apexchart-timeline"
+  },
+  "keywords": [
+    "apexchart",
+    "apexchart-timeline",
+    "timeline",
+    "javascript-timeline",
+    "chart-timeline"
+  ],
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "apexcharts": "^3.28.3"
+  }
+}
